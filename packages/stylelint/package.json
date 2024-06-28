@@ -1,0 +1,24 @@
+{
+  "name": "stylelint-odos",
+  "version": "0.0.1",
+  "description": "stylelint-config-selling",
+  "keywords": [
+    "stylelint"
+  ],
+  "author": "lizhanghua",
+  "license": "ISC",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+
+  "scripts": {
+    "test": "stylelint test"
+  },
+  "dependencies": {
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-order": "^4.1.0"
+  },
+  "gitHead": "7805f9086587487b0d882d89356650267c7386e5"
+}

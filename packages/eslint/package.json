@@ -1,0 +1,37 @@
+{
+  "name": "eslint-odos",
+  "version": "0.0.1",
+  "description": "ESLint config base version",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslint-react",
+    "eslint-vue"
+  ],
+  "files": [
+    "rules",
+    "base.js",
+    "index.js",
+    "vue.js",
+    "package.json"
+  ],
+  "author": "lizhanghua",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+
+  "dependencies": {
+    "@babel/eslint-parser": "^7.15.4",
+    "@typescript-eslint/eslint-plugin": "^4.32.0",
+    "@typescript-eslint/parser": "^4.32.0",
+    "@vue/eslint-config-standard": "^6.1.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^7.18.0"
+  },
+  "gitHead": "7805f9086587487b0d882d89356650267c7386e5",
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "typescript": "^4.4.3"
+  }
+}
